@@ -36,7 +36,7 @@ async function doReadFile() {
 
 */
 
-let fs = require('fs-promise')
+import fs from 'fs-promise'
 
 async function doReadFile() {
     try {
@@ -48,3 +48,4 @@ async function doReadFile() {
 }
 
 doReadFile()
+

@@ -1,5 +1,16 @@
 {
+  "name": "j3-core-module",
+  "main": "./lib/module.js",
+  "version": "0.1.0",
   "dependencies": {
     "fs-promise": "^2.0.3"
+  },
+  "scripts": {
+    "test": "babel-node test.js",
+    "build": "babel src1 --out-dir lib -s"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "babel-preset-env": "^1.6.1"
   }
 }
