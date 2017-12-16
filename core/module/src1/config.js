@@ -1,5 +1,6 @@
+/* 配置文件 */
 
-
-export let node_default_path = './node/node'
-export let npm_default_path = './node/npm'
-
+export default {
+    node_default_path: 'node',
+    npm_default_path: 'npm'
+} 
